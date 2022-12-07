@@ -1,14 +1,14 @@
-1. git init: tạo repo trong local  >> <git init>
-2. git add: thêm file để chuẩn bị commit>> <git add tên_file>
+1. git init: tạo repo trong local >> <git init>
+2. git add: thêm file để chuẩn bị commit >> <git add tên_file>
 3. git commit:
-    >> <git commit -m " ghi chú commit "> 
-    >> <git commit -a: để đưa các file đang được giám sát có sự thay đổi vào staging rồi tự động chạy git commit>
-    >> <git commit --amend: tạo ra commit mới thay thế cho commit cuối cùng >
+    * <git commit -m " ghi chú commit "> 
+    * <git commit -a: để đưa các file đang được giám sát có sự thay đổi vào staging rồi tự động chạy git commit>
+    * <git commit --amend: tạo ra commit mới thay thế cho commit cuối cùng >
 4. git reset:
-    >> <git reset --soft HEAD~1: hủy commit cuối, con trỏ HEAD sẽ chuyển về commit cha. Đồng thời những thay đổi của commit cuối được chuyển vào vùng staging nhằm để có cơ hội commit lại hoặc sửa đổi>
-    >> <git reset --hard HEAD~1: giống với dùng tham số --soft, chỉ có một khác biết là nội dung thay đổi của commit cuối không đưa đưa vào staging mà bị hủy luôn>
-    >> <git reset: hủy git add>
-    >> <git reset -- filename:  hủy một file nào đó trong vùng staging chứ không phải toàn bộ >
+    * <git reset --soft HEAD~1: hủy commit cuối, con trỏ HEAD sẽ chuyển về commit cha. Đồng thời những thay đổi của commit cuối được chuyển vào vùng staging nhằm để có cơ hội commit lại hoặc sửa đổi>
+    * <git reset --hard HEAD~1: giống với dùng tham số --soft, chỉ có một khác biết là nội dung thay đổi của commit cuối không đưa đưa vào staging mà bị hủy luôn>
+    * <git reset: hủy git add>
+    * <git reset -- filename:  hủy một file nào đó trong vùng staging chứ không phải toàn bộ >
 5. git revert: 
     >> <git revert HEAD: hoàn tác lại commit vừa đổi gần nhất>
 6. git stash: 
