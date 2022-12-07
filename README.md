@@ -43,3 +43,6 @@
     * <git branch -d my-branch-name: xóa nhánh cục bộ>
 12. git merge: * <git merge my-branch-name: sử dụng để gộp nhánh, gộp nhánh này vào nhánh khác. Khi gộp nhánh git thường căn cứ vào 3 commit, để tạo ra một commit gộp>
 13. git rebase: * <git rebase my-branch-name: cũng gộp các commit từ nhánh này vào nhánh khác, bằng cách xây dựng lại các commit base kế thừa từ nhánh khác và viết lại lịch sử commit sau các commit cơ sở mới.>
+14. git cherry-pick:
+   *
+   *
