@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 1. git init: tạo repo trong local  >> <git init>
 2. git add: thêm file để chuẩn bị commit>> <git add tên_file>
 3. git commit:
@@ -43,7 +42,6 @@
     >> <git branch -d my-branch-name: xóa nhánh cục bộ>
 12. git merge: >> <git merge my-branch-name: sử dụng để gộp nhánh, gộp nhánh này vào nhánh khác. Khi gộp nhánh git thường căn cứ vào 3 commit, để tạo ra một commit gộp>
 13. git rebase: >> <git rebase my-branch-name: cũng gộp các commit từ nhánh này vào nhánh khác, bằng cách xây dựng lại các commit base kế thừa từ nhánh khác và viết lại lịch sử commit sau các commit cơ sở mới.>
-14. 
 
 
 
@@ -54,11 +52,3 @@
 
 
 
-=======
-1. git init: tạo repo trong local 
-2. git add: thêm file 
-3. git commit: ghi file vừa add
-4. git reset: đưa một tập tin nào đó vào Staging Area nhưng bây giờ bạn muốn loại bỏ nó ra khỏi đây để không phải bị commit theo.
-5. git revert: undo lại tất cả những thay đổi của một commit mà chúng ta chỉ định và tạo mới một commit mới trên history.
-6. git stash: 
->>>>>>> c02984f9dae8409425bce5fcaf8fe76860856d6d
