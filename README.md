@@ -45,3 +45,7 @@
 13. git rebase: * <git rebase my-branch-name: cũng gộp các commit từ nhánh này vào nhánh khác, bằng cách xây dựng lại các commit base kế thừa từ nhánh khác và viết lại lịch sử commit sau các commit cơ sở mới.>
 14. git cherry-pick: * <git cherry-pich ten_branch~id_commit: checkout một commit tại branch nhất định về branch hiện tại>
     
+
+
+
+
