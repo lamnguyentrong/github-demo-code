@@ -29,6 +29,7 @@
     * <git remote rm remote-name: Xóa 1 địa chỉ remote>
     * <git remote rename ten-cu ten-moi: đổi tên địa chỉ remote>
     * <git remote show remote-name: xem thông tin chi tiết về remote>
+    * <git remote set-url origin url-change: Đặt lại địa chỉ url khi rename repo trên remote>
 8. git push: >> <git push: đẩy commit từ local lên remote>
 9. git pull: >> <git pull: cập nhật lại toàn bộ thay đổi từ remote về local>
 10. git fetch: >> <git fetch: giống với git pull nhưng không cập nhật trạng thái hoạt động của local>
